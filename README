@@ -1,0 +1,24 @@
+This program is used to illustrate a class I wrote using the example from: http://www.javazoom.net/mp3spi/documents.html
+
+Hopefully this class (Music.java) will make it easier for new programmers to add music functionality to their programs. There is no license on this code, use it how you like.
+
+
+This program (and the class) require the following libraries:
+
+JLayer - http://www.javazoom.net/javalayer/javalayer.html
+MP3 SPI - http://www.javazoom.net/mp3spi/mp3spi.html
+Tritonus Share (tritonus_share-0.3.6.jar) - http://www.tritonus.org/plugins.html
+
+All of these libraries are released under the LGPL. To build the project, simply add the .jar's from each of the sites above to the libaries section of your IDE. These .jar's will need to be available to the program at runtime. Your IDE should automatically create a "lib" folder containing them with your distributable .jar.
+
+Music.java:
+
+- Play, pause, mute, restart, loop, and stop a given MP3 file
+- Starts a new thread automatically
+- Simple to use and well documented
+
+
+I'm open to suggestions/commits!
+
+
+Created By Connor Mahaffey
